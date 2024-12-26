@@ -51,13 +51,19 @@ a {
 
 .sub-text {
     font-size: 14px;
-    color: #E5E7EB;
+    color: #a5a5a5;
     font-weight: 300;
 }
 
 .sign-up-header {
     background-color: #3882F6;
     color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
 }
 
 .right-header {
@@ -67,4 +73,53 @@ a {
     color: white;
     align-items: center;
     justify-content: center;
+}
+
+.info-section {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 48px;
+}
+
+.boxes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.info-box {
+    text-wrap: wrap;
+    flex-shrink: 0;
+    width: 200px;
+}
+
+.image {
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 200px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 50;
+    width: 700px;
+}
+
+.writer {
+    font-size: 20px;
+    font-weight: 900;
 }
