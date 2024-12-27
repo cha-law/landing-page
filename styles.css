@@ -39,6 +39,8 @@ a {
 }
 
 .header {
+    display: flex;
+    align-items: center;
     gap: 36px;
     padding: 48px 64px;
 }
@@ -63,11 +65,13 @@ a {
 
 .right-header {
     display: flex;
-    flex: 1;
+    flex: 0 0 auto;
     background-color: #888888;
     color: white;
     align-items: center;
     justify-content: center;
+    width: 350px;
+    height: 200px;
 }
 
 .info-section {
@@ -79,7 +83,7 @@ a {
 }
 
 .boxes {
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -87,6 +91,9 @@ a {
 }
 
 .info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     text-wrap: wrap;
     flex-shrink: 0;
     width: 200px;
@@ -118,6 +125,7 @@ a {
     width: 700px;
     font-size: 20px;
     font-weight: 900;
+    text-align: right;
 }
 
 .signup-section {
