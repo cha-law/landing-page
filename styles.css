@@ -5,7 +5,8 @@
 }
 
 .nav-bar,
-.header {
+.header,
+.footer {
     background-color: #1F2937;
     padding: 12px 64px;
     display: flex;
@@ -47,12 +48,6 @@ a {
     color: #F9FAF8;
     font-size: 36px;
     font-weight: 900;
-}
-
-.sub-text {
-    font-size: 14px;
-    color: #a5a5a5;
-    font-weight: 300;
 }
 
 .sign-up-header {
@@ -120,6 +115,60 @@ a {
 }
 
 .writer {
+    width: 700px;
     font-size: 20px;
     font-weight: 900;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 150px;
+}
+.signup-box { 
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    padding: 25px 75px;
+    border-radius: 5px;
+    max-width: 850px;
+    gap: 32px;
+    align-items: center;
+}
+
+.signup-text {
+    font-weight: 900;
+    color: #F9FAF8;
+    font-size: 16px;
+}
+
+.sub-text {
+    font-size: 14px;
+    color: #a5a5a5;
+    font-weight: 300;
+}
+
+.signup-subtext {
+    color: #d1d1d0;
+}
+
+.signup-button {
+    font-size: 13px;
+    font-weight: 900;
+    color: #F9FAF8;
+    border-style: solid;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    min-width: 100px;
+    min-height: 30px;
+    padding: 2px 24px;
+}
+
+.footer {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
 }
